@@ -8,7 +8,7 @@ fi
 
 read -p "GitHub username: " GH_USER
 read -p "Имя репозитория (пустого, например SnowLauncher): " GH_REPO
-read -s -p "Токен (ввод не виден): " GH_TOKEN
+read -p "Токен (ввод не виден): " GH_TOKEN
 echo
 
 if [ ! -d .git ]; then
